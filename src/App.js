@@ -14,8 +14,8 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="user/:userid" element={<User />} />
           <Route path="/github" element={<Github />} />
           <Route exact path="/about" element={<About />} />
